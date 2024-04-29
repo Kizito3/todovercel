@@ -1,0 +1,40 @@
+.todos li {
+  list-style: none;
+  border-bottom: 0.2px solid #757575;
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+  /* color: #000; */
+  font-weight: 500;
+}
+
+.todoWrapper {
+  background: #ffffff;
+  padding-block: 0.1rem;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #757575;
+  /* cursor: pointer; */
+}
+.icon {
+  color: #ed6a5a;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+@media (max-width: 1024px) {
+}

@@ -1,0 +1,23 @@
+.cardWrapper {
+    background-color: #526194;
+    width: 45%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    box-shadow: 0 14px 9px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .card h2 {
+    font-size: 50px;
+    color: #fff;
+    font-family: Poppins;
+  }
+  
+  @media (max-width: 1024px) {
+    .cardWrapper {
+      width: 100%;
+    }
+    .card h2 {
+      font-size: 30px;
+    }
+  }
+  
